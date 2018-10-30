@@ -69,6 +69,10 @@ const Navigation=()=>{
     <li className="nav-item">
       <a className="nav-link " href="#"> Hiburan</a>
     </li>
+  <li className="nav-item">
+      <a className="nav-link " href="#"> kesenangan</a>
+    </li>
+
     <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
          More
