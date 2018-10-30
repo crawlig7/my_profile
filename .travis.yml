@@ -8,7 +8,7 @@ install : true
   -npm install 
 script:
   - chmod 600 deploy_rsa
-  - ssh-keyscan -H $SSH_IP >> ~/.ssh/know_hosts
+  - ssh-keyscan -H $SSH_IP >> ~/.ssh/known_hosts
   - ssh -v -i deploy_rsa $SSH_USER@$SSH_IP DIR=$ROOT_DIR 'bash -s' < deploy.sh
 
 
